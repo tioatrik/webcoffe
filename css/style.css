@@ -1,5 +1,5 @@
 :root {
-  --primary: #1d009e;
+  --primary: #3374ff;
   --bg: #010101;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .hero .content .cta:hover {
-  background-color: #2500cc;
+  background-color: #6193ff;
 }
 
 /* media query */
@@ -213,7 +213,8 @@ body {
 
   .navbar .navbar-nav {
     right: -140%;
-    width: 12rem;
+    width: 16rem;
+    font-size:100%;
   }
 
   .navbar .navbar-nav a {
