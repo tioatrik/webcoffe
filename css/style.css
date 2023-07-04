@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 2000px;
+  min-height: 4000px;
 }
 
 .navbar {
@@ -148,6 +148,56 @@ body {
   background-color: #6193ff;
 }
 
+.about {
+  padding: 6rem 7% 1.4rem;
+}
+
+.about h2,
+.menu h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span,
+.menu h2 span {
+  color: var(--primary);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 35rem;
+   margin-left:3rem;
+}
+
+.about .row .about-img img {
+
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 1.8rem;
+  font-size: 1.2rem;
+}
+
+/* menu */
+
 /* media query */
 
 /* laptop */
@@ -203,6 +253,31 @@ body {
     border-radius: 10px;
     color: white;
   }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img {
+    margin: auto;
+  }
+
+  .about .row .about-img img {
+    width: 100%;
+    height:24rem;
+    object-fit:cover;
+    object-position:center;
+  }
+
+  .about .row .content{
+    padding:0px;
+  }
+
+  .about .row .content h3{
+    margin-top:1rem;
+  }
+
+
 }
 
 /* mobile */
@@ -214,11 +289,18 @@ body {
   .navbar .navbar-nav {
     right: -140%;
     width: 16rem;
-    font-size:100%;
+    font-size: 100%;
   }
 
   .navbar .navbar-nav a {
     font-size: 1rem;
     font-weight: 400;
+  }
+
+  .about .row .about-img img {
+    width: 100%;
+    height:70%;
+    object-fit:cover;
+    object-position:center;
   }
 }
