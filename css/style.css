@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary: #1d009e;
   --bg: #010101;
 }
 
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(1, 1, 1, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid #ccc;
   padding: 1.2rem 7%;
   position: fixed;
@@ -145,7 +145,7 @@ body {
 }
 
 .hero .content .cta:hover {
-  background-color: black;
+  background-color: #2500cc;
 }
 
 /* media query */
@@ -221,5 +221,3 @@ body {
     font-weight: 400;
   }
 }
-
-
